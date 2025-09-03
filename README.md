@@ -1,8 +1,10 @@
-# Marketplace de Alquiler de Viviendas a Largo Plazo
+# HabitaNexus
+
+## Marketplace de Alquiler de Viviendas a Largo Plazo
 
 Una aplicación Flutter para Android que revoluciona el mercado de alquiler de viviendas a largo plazo mediante un sistema de **negociación digital de contratos de arrendamiento**. A diferencia de plataformas tradicionales como Facebook Marketplace o Encuentra24, nuestra app permite negociar términos y condiciones del contrato directamente a través de un flujo de pantallas intuitivo tipo customer journey.
 
-## 🚀 Propuesta de Valor Única
+### 🚀 Propuesta de Valor Única
 
 **Negociación Digital de Contratos**: Sistema innovador que permite negociar términos del arrendamiento (precio, duración, condiciones especiales, servicios incluidos) a través de un flujo guiado de pantallas, eliminando la necesidad de reuniones presenciales o intercambios de mensajes largos.
 

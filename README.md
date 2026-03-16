@@ -259,6 +259,18 @@ abstract class PaymentProvider {
 4. Push a la rama (`git push origin feature/nueva-funcionalidad`)
 5. Abre un Pull Request
 
+## Modelo de Negocio
+
+La documentación completa del modelo de negocio está en [`business/`](business/):
+
+| Espacio | Entregables | Estado |
+|---------|-------------|--------|
+| [📋 Problema e Hipótesis](business/01-problema-hipotesis/) | 5 documentos | ✅ Validado |
+| [🔬 Solución y Validación](business/02-solucion-validacion/) | 16 documentos (BMC + validación) | ✅ Completado |
+| [🚀 Ejecución y Aceleración](business/03-ejecucion-aceleracion/) | 10 documentos | ✅ Completado |
+
+**Números clave**: TAM $2.450M · SOM $7.6M · LTV:CAC 16:1 · Break-even Mes 11 · [Pitch Deck](business/03-ejecucion-aceleracion/10-pitch-deck.md)
+
 ## Licencia
 
 Este proyecto está bajo la Licencia BSL (BUSINESS SOURCE LICENSE) - ver el archivo [LICENSE](LICENSE) para más detalles.

@@ -2,6 +2,16 @@
 
 Este proyecto utiliza el patrón de **Agent Skills** para proporcionar conocimiento contextual y capacidades especializadas a los asistentes de IA.
 
+## Estándares de Ingeniería (obligatorios)
+
+Antes de abrir cualquier PR o reorganizar código, leer y seguir:
+
+- **PRDS** — descripción y alcance de PRs: [docs/process/pull-request-description-and-scope.md](docs/process/pull-request-description-and-scope.md)
+- **DSMS / IFS / CPS** — organización, estructura intra-archivo y barrels: [docs/process/code-organization-standards.md](docs/process/code-organization-standards.md)
+
+Template de PR automático en `.github/PULL_REQUEST_TEMPLATE.md`. Si un issue Linear
+existe, el título y el cuerpo del PR DENTRO incluyen `HAB-N`.
+
 ## ¿Qué son los Skills?
 
 Los skills son carpetas con archivos `SKILL.md` que contienen instrucciones y contexto específico. Ofrecen:

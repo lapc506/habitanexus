@@ -38,7 +38,7 @@ El SDK de Trustless Work existe solo en React/TypeScript (`@trustless-work/escro
 |---|---|---|
 | Alcance del spike | Esqueleto en `packages/`, sin publicar a pub.dev aún | Time-flexible; validar arquitectura antes de commitment con TW |
 | Capa de integración | Cliente HTTP 1:1 del API gateway de TW | No reimplementar Soroban; reusar abstracción ya auditada |
-| Ownership del repo | `packages/` → `github.com/HabitaNexus/monorepo` → pub.dev bajo Trustless Work verified publisher | Iteración local, extracción cuando madura, publicación bajo identidad correcta |
+| Ownership del repo | `packages/` → `github.com/DojoCodingLabs/trustless-work-dart` → pub.dev bajo Trustless Work verified publisher | Iteración local, extracción cuando madura, publicación bajo identidad correcta |
 | Naming del paquete core | `trustless_work_dart` | Sufijo `_dart` desambigua para devs que lo importan sin contexto |
 | Naming del hermano | `trustless_work_flutter_storage` | Aisla deps Flutter del core Dart puro |
 | Arquitectura del signer | `TransactionSigner` interface + `KeyPairSigner` + `CallbackSigner` en el core; `SecureStorageKeyPairSigner` en el hermano | Core reusable desde cualquier contexto Dart |
@@ -361,7 +361,7 @@ Gated por `--tags=integration`; no corre en CI default, sí en CI scheduled (dia
 ## 12. Gobernanza
 
 - **Licencia**: MIT (matcheo con declaración del SDK React).
-- **Incubación**: repo inicial bajo `github.com/HabitaNexus/monorepo` (repo `packages/` del monorepo como incubador OSS).
+- **Incubación**: repo inicial bajo `github.com/DojoCodingLabs/trustless-work-dart` (Dojo Coding como incubador OSS).
 - **Publicación futura**: pub.dev bajo verified publisher de Trustless Work cuando el paquete esté estable y TW acepte co-mantenimiento.
 - **HabitaNexus** es la primera consumer y justificación de negocio, no el owner del paquete.
 

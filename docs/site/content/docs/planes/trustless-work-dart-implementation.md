@@ -136,8 +136,8 @@ mkdir -p packages/trustless_work_dart/example
 name: trustless_work_dart
 description: Pure-Dart client for the Trustless Work escrow API gateway on Stellar/Soroban. Works from Flutter, Jaspr, Dart server, or CLI.
 version: 0.1.0-dev.1
-repository: https://github.com/DojoCodingLabs/trustless-work-dart
-issue_tracker: https://github.com/DojoCodingLabs/trustless-work-dart/issues
+repository: https://github.com/HabitaNexus/monorepo
+issue_tracker: https://github.com/HabitaNexus/monorepo/issues
 
 environment:
   sdk: ^3.2.5
@@ -2862,7 +2862,7 @@ mkdir -p packages/trustless_work_flutter_storage/test
 name: trustless_work_flutter_storage
 description: Persistent on-device signer for Trustless Work built on flutter_secure_storage. Companion to trustless_work_dart.
 version: 0.1.0-dev.1
-repository: https://github.com/DojoCodingLabs/trustless-work-dart
+repository: https://github.com/HabitaNexus/monorepo
 
 environment:
   sdk: ^3.2.5

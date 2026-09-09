@@ -23,7 +23,7 @@ El SDK de Trustless Work existe solo en React/TypeScript (`@trustless-work/escro
 |---|---|---|
 | Alcance del spike | **Opción B** — esqueleto en `packages/`, sin publicar a pub.dev | Time-flexible; validar arquitectura antes de commitment |
 | Capa de integración | **Opción A** — cliente HTTP 1:1 del API gateway de TW | No reimplementar Soroban; reusar la abstracción ya auditada de TW |
-| Ownership del repo | **`packages/` primero → `github.com/DojoCodingLabs/trustless-work-dart` después → pub.dev bajo Trustless Work verified publisher** | Itera local, extrae cuando madura, publica bajo la identidad correcta |
+| Ownership del repo | **`packages/` primero → `github.com/HabitaNexus/monorepo` después → pub.dev bajo Trustless Work verified publisher** | Itera local, extrae cuando madura, publica bajo la identidad correcta |
 | Naming del paquete core | **`trustless_work_dart`** | Sufijo `_dart` explícito desambigua para devs que lo importan sin contexto |
 | Naming del hermano | **`trustless_work_flutter_storage`** | Wallet embebida con `flutter_secure_storage`, dependencias Flutter aisladas |
 | Arquitectura del signer | **Approach C** — `TransactionSigner` interface + `KeyPairSigner` + `CallbackSigner` en el core Dart puro; `SecureStorageKeyPairSigner` en el hermano | Core queda reusable desde Jaspr, Flutter Web, Dart server, CLI |
@@ -380,5 +380,5 @@ Cuando el spec esté escrito y el paquete implementado:
 3. Escribir spec formal en `docs/superpowers/specs/2026-04-15-trustless-work-dart-spike-design.md`.
 4. Agregar a segundo mensaje a Alberto cuando responda el primero: pregunta sobre fee sponsorship (¿TW absorbe XLM fees? ¿usa FeeBumpTransaction?).
 5. Invocar `superpowers:writing-plans` para generar plan de implementación detallado.
-6. (Espera a respuesta de Alberto sobre OpenAPI bundle + licencia antes de crear el repo público `DojoCodingLabs/trustless-work-dart`).
+6. (Espera a respuesta de Alberto sobre OpenAPI bundle + licencia antes de crear el repo público `HabitaNexus/trustless-work-dart`).
 7. (Opcional, paralelo) Abrir spike separado: "HabitaNexus fiat on-ramp strategy" para evaluar Onramper vs Bitso vs Bitpoint vs alternativas, con foco en soporte USDC-Stellar + SINPE.
